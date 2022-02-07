@@ -18,13 +18,14 @@ img {
 .card {
     width: 870px;
     margin: auto;
+    background-color: #b9bdd3;
     padding: 80px 50px;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 15px 0px;
 }
 
-.card.body{
+.card.card.body{
     width: 870px;
     margin: auto;
     padding: 80px 50px;
@@ -48,9 +49,9 @@ img {
     color: #ffff;
     background-color: #5c4bbd;
 }
-.card h1,
-.card h2{
-    margin-top: 0;
+.card.h1,
+.card.h2{
+    margin-top: 50;
 }
 
 .card h2::before{
@@ -58,7 +59,7 @@ img {
 }
 
 .top{
-    
+
 }
 
 
